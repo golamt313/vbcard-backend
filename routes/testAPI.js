@@ -5,7 +5,7 @@ var router = express.Router();
 router.get("/", (req, res, next) => {
     const data = {
         header: [
-            {img: 'header1', name: 'John Smith', title: 'Manager'}
+            {img: 'header', name: 'Mohammed Kibria', title: 'Manager'}
         ],
         sections: [
             {img: 'smartphone', info: '313-603-1496', desc: 'Cell', functionType: 'tel', functionParams: `3136031496`},
